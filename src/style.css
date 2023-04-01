@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    background: #F1F4F8;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
+
+.cards{
+    padding: 10px 20px;
+}
+
+.card {
+    background: #fff;
+    border-radius: 8px;
+    padding: 18px 16px;
+    box-shadow: -1px -1px 6px rgba(136, 146, 206, 0.15), 3px 6px 12px rgba(30, 65, 155, 0.08), 0px 2px 2px rgba(63, 63, 68, 0.05);
+    margin-bottom: 24px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.gray-text{
+    color: #59597B;
+}
+
+.card-top__status{
+    border-radius: 2px;
+    padding: 4px 8px;
+}
+
+.card-top__status.buy{
+    background: #DFF7EF;
+    color: #0CCE82;
+}
+
+.card-top__status.sell{
+    background: #EBEFFF;
+    color: #4750FF;
+}
